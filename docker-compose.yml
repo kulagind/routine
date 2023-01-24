@@ -1,8 +1,8 @@
-version: "3"
+version: "3.8"
 
 services:
   pgdb:
-    image: "postgres:alpine"
+    image: "postgres"
     container_name: "$DB_CONTAINER"
     env_file:
       - .env
